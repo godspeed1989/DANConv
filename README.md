@@ -1,5 +1,12 @@
-# kitti_completion
+# Sparse LiDAR Depth Completion
 Code for `DAN-Conv: Depth Aware Non-local Convolution for LiDAR Depth Completion`.
+
+## Requirments
+```
+pytorch >= 1.6.0
+tqdm
+fire
+```
 
 ## Prepare training data
 You need to download the entire [raw KITTI dataset](http://www.cvlibs.net/datasets/kitti/raw_data.php) to train.
